@@ -4,7 +4,7 @@ def remove_spaces(string: str) -> str:
 
 lines = []
 while True:
-    line = input("请输入多行字符串（输入空行结束）: ")
+    line = input()
     if line:
         lines.append(line)
     else:
